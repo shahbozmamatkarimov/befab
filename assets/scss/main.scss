@@ -4,6 +4,11 @@
 
 @import "./_colors.scss";
 
+* {
+  ::-webkit-scrollbar{
+    width: 0;
+  }
+}
 .fs_15 {
   font-size: 15px;
 }
