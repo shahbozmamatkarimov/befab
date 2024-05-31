@@ -716,7 +716,7 @@
       <div class="md:min-w-[480px] min-w-fit w-full">
         <img
           @click="modal2Visible = false"
-          class="ml-auto"
+          class="cursor-pointer ml-auto"
           src="@/assets/svg/close.svg"
           alt=""
         />
@@ -726,7 +726,7 @@
         <p class="fs_15 mt-5">
           Мы свяжемся с вами в ближайшее время, чтобы ответить на все вопросы.
         </p>
-        <div class="2xl:flex items-end gap-5 mt-4">
+        <div class="items-end gap-5 mt-4">
           <div class="2xl:w-[150px]">
             <input
               class="leading-[55px] placeholder-[#2D2C35]"
@@ -751,7 +751,7 @@
             />
             <hr class="border-[#000] opacity-40 mb-2" />
           </div>
-          <div class="relative h-[42px] 2xl:mt-0 mt-10">
+          <div class="relative h-[42px] mt-10">
             <button class="flex items-center animate-button2 hover:text-white">
               <p class="z-10 px-4">
                 <span class="_cfe">Получ</span>ить консультацию
@@ -780,7 +780,7 @@
       <div class="md:min-w-[480px] min-w-fit w-full">
         <img
           @click="modal2Visible = false"
-          class="mb-5"
+          class="cursor-pointer mb-5"
           src="@/assets/svg/close.svg"
           alt=""
         />
