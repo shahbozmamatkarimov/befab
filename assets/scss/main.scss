@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./_colors.scss";
+
+.fs_15 {
+  font-size: 15px;
+}
+
+.page_container {
+  padding-right: 300px;
+  padding-left: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1990px) {
+  .page_container {
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text_center {
+    text-align: center;
+  }
+
+  .m_auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text_button {
+    display: none;
+  }
+
+  .text_flex {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.swiper {
+  overflow: visible !important;
+}
+
+.swiper-button-next, .swiper-button-prev, .ant-modal-footer, .ant-modal-close{
+  display: none !important;
+}
