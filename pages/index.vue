@@ -856,26 +856,26 @@ const work_image = [
 const work_image1 = [work1, work2, work3, work4];
 const work_image2 = [work01, work02, work03, work04, work05];
 
-function sendEmail() {
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: "muhammadiyevj768@gmail.com",
-      pass: "epnclgkptkewibws",
-    },
-  });
+// function sendEmail() {
+//   const transporter = nodemailer.createTransport({
+//     service: "gmail",
+//     auth: {
+//       user: "muhammadiyevj768@gmail.com",
+//       pass: "epnclgkptkewibws",
+//     },
+//   });
 
-  const mailOptions = {
-    from: "muhammadiyevj768@gmail.com",
-    to: "shahbozmamatkarimov2303@gmail.com",
-    subject: "Password Reset",
-    text: `This is your registration confirmation code`,
-  };
+//   const mailOptions = {
+//     from: "muhammadiyevj768@gmail.com",
+//     to: "shahbozmamatkarimov2303@gmail.com",
+//     subject: "Password Reset",
+//     text: `This is your registration confirmation code`,
+//   };
 
-  transporter.sendMail(mailOptions, (error, info) => {
-    console.log(error);
-  });
-}
+//   transporter.sendMail(mailOptions, (error, info) => {
+//     console.log(error);
+//   });
+// }
 
 onMounted(() => {
   // sendEmail()
